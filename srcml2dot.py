@@ -66,7 +66,7 @@ class MyHTMLParser(HTMLParser):
                     self.parentstack.append(self.curtag)
                     self.tagidx += 1
                     self.seq.append(d)
-                    self.graph.add_node(self.tagidx, label=d)
+                    self.graph.add_node(self.tagidx, label=d, fontname='times-bold')
                     self.graph.add_edge(self.parentstack[-1], self.tagidx)
                     self.curtag = self.tagidx
                     self.curtag = self.parentstack.pop()
@@ -90,4 +90,6 @@ with open(infile, 'r') as f:
 (graph, seq) = xmldecode(unit)
 
 write_dot(graph, outfile)
+
+print(seq)
 

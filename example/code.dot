@@ -1,5 +1,6 @@
 strict graph "" {
-	node [label="\N"];
+	graph [pad="0", nodesep="0.2", ranksep="0.2"];
+	node [label="\N", fontsize=14, width=0.05, height=0.05, shape=box];
 	0	[label=unit];
 	1	[label=function];
 	0 -- 1;
@@ -15,13 +16,17 @@ strict graph "" {
 	2 -- 3;
 	5	[label=name];
 	2 -- 5;
-	4	[label=public];
+	4	[fontname="times-bold",
+		label=public];
 	3 -- 4;
-	6	[label=void];
+	6	[fontname="times-bold",
+		label=void];
 	5 -- 6;
-	8	[label=send];
+	8	[fontname="times-bold",
+		label=send];
 	7 -- 8;
-	9	[label=guess];
+	9	[fontname="times-bold",
+		label=guess];
 	7 -- 9;
 	11	[label=parameter];
 	10 -- 11;
@@ -33,9 +38,11 @@ strict graph "" {
 	12 -- 16;
 	14	[label=name];
 	13 -- 14;
-	15	[label=string];
+	15	[fontname="times-bold",
+		label=string];
 	14 -- 15;
-	17	[label=guess];
+	17	[fontname="times-bold",
+		label=guess];
 	16 -- 17;
 	19	[label=block_content];
 	18 -- 19;
@@ -43,7 +50,8 @@ strict graph "" {
 	19 -- 20;
 	21	[label=if];
 	20 -- 21;
-	22	[label=if];
+	22	[fontname="times-bold",
+		label=if];
 	21 -- 22;
 	23	[label=condition];
 	21 -- 23;
@@ -57,9 +65,11 @@ strict graph "" {
 	25 -- 26;
 	29	[label=argument_list];
 	25 -- 29;
-	27	[label=is];
+	27	[fontname="times-bold",
+		label=is];
 	26 -- 27;
-	28	[label=connected];
+	28	[fontname="times-bold",
+		label=connected];
 	26 -- 28;
 	31	[label=block_content];
 	30 -- 31;
@@ -81,13 +91,17 @@ strict graph "" {
 	35 -- 38;
 	39	[label=name];
 	35 -- 39;
-	37	[label=gui];
+	37	[fontname="times-bold",
+		label=gui];
 	36 -- 37;
-	40	[label=status];
+	40	[fontname="times-bold",
+		label=status];
 	39 -- 40;
-	41	[label=bar];
+	41	[fontname="times-bold",
+		label=bar];
 	39 -- 41;
-	42	[label=info];
+	42	[fontname="times-bold",
+		label=info];
 	39 -- 42;
 	44	[label=argument];
 	43 -- 44;
@@ -97,15 +111,18 @@ strict graph "" {
 	44 -- 45;
 	46	[label=literal];
 	45 -- 46;
-	47	[label=querying];
+	47	[fontname="times-bold",
+		label=querying];
 	46 -- 47;
 	49	[label=expr];
 	48 -- 49;
 	50	[label=literal];
 	49 -- 50;
-	51	[label=false];
+	51	[fontname="times-bold",
+		label=false];
 	50 -- 51;
-	53	[label=try];
+	53	[fontname="times-bold",
+		label=try];
 	52 -- 53;
 	54	[label=block];
 	52 -- 54;
@@ -131,9 +148,11 @@ strict graph "" {
 	59 -- 62;
 	63	[label=name];
 	59 -- 63;
-	61	[label=os];
+	61	[fontname="times-bold",
+		label=os];
 	60 -- 61;
-	64	[label=write];
+	64	[fontname="times-bold",
+		label=write];
 	63 -- 64;
 	66	[label=argument];
 	65 -- 66;
@@ -153,19 +172,24 @@ strict graph "" {
 	67 -- 76;
 	77	[label=call];
 	67 -- 77;
-	70	[label=guess];
+	70	[fontname="times-bold",
+		label=guess];
 	69 -- 70;
-	73	[label=r];
+	73	[fontname="times-bold",
+		label=r];
 	72 -- 73;
-	74	[label=n];
+	74	[fontname="times-bold",
+		label=n];
 	72 -- 74;
 	78	[label=name];
 	77 -- 78;
 	81	[label=argument_list];
 	77 -- 81;
-	79	[label=get];
+	79	[fontname="times-bold",
+		label=get];
 	78 -- 79;
-	80	[label=bytes];
+	80	[fontname="times-bold",
+		label=bytes];
 	78 -- 80;
 	83	[label=expr];
 	82 -- 83;
@@ -181,11 +205,14 @@ strict graph "" {
 	85 -- 88;
 	89	[label=name];
 	85 -- 89;
-	87	[label=os];
+	87	[fontname="times-bold",
+		label=os];
 	86 -- 87;
-	90	[label=flush];
+	90	[fontname="times-bold",
+		label=flush];
 	89 -- 90;
-	93	[label=catch];
+	93	[fontname="times-bold",
+		label=catch];
 	92 -- 93;
 	94	[label=parameter_list];
 	92 -- 94;
@@ -201,9 +228,11 @@ strict graph "" {
 	96 -- 100;
 	98	[label=name];
 	97 -- 98;
-	99	[label=ioexception];
+	99	[fontname="times-bold",
+		label=ioexception];
 	98 -- 99;
-	101	[label=e];
+	101	[fontname="times-bold",
+		label=e];
 	100 -- 101;
 	103	[label=block_content];
 	102 -- 103;
@@ -225,13 +254,17 @@ strict graph "" {
 	107 -- 110;
 	111	[label=name];
 	107 -- 111;
-	109	[label=gui];
+	109	[fontname="times-bold",
+		label=gui];
 	108 -- 109;
-	112	[label=status];
+	112	[fontname="times-bold",
+		label=status];
 	111 -- 112;
-	113	[label=bar];
+	113	[fontname="times-bold",
+		label=bar];
 	111 -- 113;
-	114	[label=info];
+	114	[fontname="times-bold",
+		label=info];
 	111 -- 114;
 	116	[label=argument];
 	115 -- 116;
@@ -241,21 +274,27 @@ strict graph "" {
 	116 -- 117;
 	118	[label=literal];
 	117 -- 118;
-	119	[label=failed];
+	119	[fontname="times-bold",
+		label=failed];
 	118 -- 119;
-	120	[label=to];
+	120	[fontname="times-bold",
+		label=to];
 	118 -- 120;
-	121	[label=send];
+	121	[fontname="times-bold",
+		label=send];
 	118 -- 121;
-	122	[label=guess];
+	122	[fontname="times-bold",
+		label=guess];
 	118 -- 122;
-	123	[label=ioexception];
+	123	[fontname="times-bold",
+		label=ioexception];
 	118 -- 123;
 	125	[label=expr];
 	124 -- 125;
 	126	[label=literal];
 	125 -- 126;
-	127	[label=true];
+	127	[fontname="times-bold",
+		label=true];
 	126 -- 127;
 	129	[label=expr];
 	128 -- 129;
@@ -275,11 +314,14 @@ strict graph "" {
 	131 -- 137;
 	138	[label=name];
 	131 -- 138;
-	133	[label=system];
+	133	[fontname="times-bold",
+		label=system];
 	132 -- 133;
-	136	[label=err];
+	136	[fontname="times-bold",
+		label=err];
 	135 -- 136;
-	139	[label=println];
+	139	[fontname="times-bold",
+		label=println];
 	138 -- 139;
 	141	[label=argument];
 	140 -- 141;
@@ -287,16 +329,22 @@ strict graph "" {
 	141 -- 142;
 	143	[label=literal];
 	142 -- 143;
-	144	[label=ioexception];
+	144	[fontname="times-bold",
+		label=ioexception];
 	143 -- 144;
-	145	[label=during];
+	145	[fontname="times-bold",
+		label=during];
 	143 -- 145;
-	146	[label=send];
+	146	[fontname="times-bold",
+		label=send];
 	143 -- 146;
-	147	[label=guess];
+	147	[fontname="times-bold",
+		label=guess];
 	143 -- 147;
-	148	[label=to];
+	148	[fontname="times-bold",
+		label=to];
 	143 -- 148;
-	149	[label=server];
+	149	[fontname="times-bold",
+		label=server];
 	143 -- 149;
 }
